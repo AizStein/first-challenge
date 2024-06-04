@@ -22,7 +22,7 @@ console.log("Fourth: ", bigNum(numFour));
 
 /* C. Write a function that returns the sum of the numbers in the array */
 
-const sum = (arr) => arr.reduce((a, b) => a + b);
+const sum = (arr) => arr.reduce((a, b) => a + b,0);
 
 console.log("Sum of the first array: ", sum(numOne));
 console.log("Sum of the second array: ", sum(numTwo));
